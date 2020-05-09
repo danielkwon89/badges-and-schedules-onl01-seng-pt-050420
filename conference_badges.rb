@@ -29,12 +29,4 @@ def printer(attendees)
   attendee_rooms.each do |name|
     puts name
   end
-  
-  #counter = 0
-  #until counter == attendees.size
-  #  puts attendee_badges[counter]
-  #  puts attendee_rooms[counter]
-  #  counter += 1
-  #end
-  
 end
