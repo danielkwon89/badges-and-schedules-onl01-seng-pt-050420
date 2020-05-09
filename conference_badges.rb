@@ -26,7 +26,9 @@ def printer(attendees)
   end
   
   attendee_rooms = assign_rooms(attendees)
-  
+  attendee_rooms.each do |name|
+    puts name
+  end
   
   #counter = 0
   #until counter == attendees.size
